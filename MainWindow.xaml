@@ -1,0 +1,64 @@
+﻿<Window x:Class="OrlaRuben.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OrlaRuben"
+        mc:Ignorable="d"
+        Title="Orla Rubén Gómez"
+        Height="800" Width="800"
+        MinHeight="800" MinWidth="600"
+        MaxHeight="1920" MaxWidth="1080"
+        Icon="Images/anuario.png"
+        Background="#f49d6e"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="18*"></RowDefinition>
+            <RowDefinition Height="18*"></RowDefinition>
+            <RowDefinition Height="18*"></RowDefinition>
+            <RowDefinition Height="18*"></RowDefinition>
+            <RowDefinition Height="18*"></RowDefinition>
+            <RowDefinition Height="18*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="20*"></ColumnDefinition>
+            <ColumnDefinition Width="20*"></ColumnDefinition>
+            <ColumnDefinition Width="11*"></ColumnDefinition>
+            <ColumnDefinition Width="20*"></ColumnDefinition>
+            <ColumnDefinition Width="20*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <!-- Fila 4 -->
+        <local:Puesto Nombre="Aitor" Apellidos="Cuadrado Aramendia" Email="acuadraara1@educacion.navarra.es" Foto="Images/Aitor.png" Grid.Row="1" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Joseba" Apellidos="Trigo Sierra" Email="jtrigosier1@educacion.navarra.es" Foto="Images/Joseba.png" Grid.Row="1" Grid.Column="2" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Cristina" Apellidos="López Lusarreta" Email="clopezlusa1@educacion.navarra.es" Foto="Images/Cristina.png" Grid.Row="1" Grid.Column="4" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Rubén" Apellidos="Gómez García" Email="rgomezgarc@educacion.navarra.es" Foto="Images/Ruben.png" Grid.Row="1" Grid.Column="5" Grid.RowSpan="1"/>
+
+        <!-- Fila 3 -->
+        <local:Puesto Nombre="Mario" Apellidos="Puente Berasategui" Email="mpuenteber1@educacion.navarra.es" Foto="Images/Mario.png" Grid.Row="2" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Jagoba" Apellidos="Inda Arizaleta" Email="jtrigosier1@educacion.navarra.es" Foto="Images/Jagoba.png" Grid.Row="2" Grid.Column="2" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Endika" Apellidos="Eguino Garbayo" Email="eeguinogar@educacion.navarra.es" Foto="Images/Endika.png" Grid.Row="2" Grid.Column="4" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Santiago" Apellidos="Lerga Cambra" Email="slergacamb@educacion.navarra.es" Foto="Images/Santiago.png" Grid.Row="2" Grid.Column="5" Grid.RowSpan="1"/>
+
+        <!-- Fila 2 -->
+        <local:Puesto Nombre="Julen" Apellidos="Baztarrica Puyal" Email="jbaztarpuy@educacion.navarra.es" Foto="Images/Julen.png" Grid.Row="3" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="David" Apellidos="Andueza Ferro" Email="danduezfer@educacion.navarra.es" Foto="Images/David.png" Grid.Row="3" Grid.Column="2" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Almudena" Apellidos="Iparraguirre Castillo" Email="aiparracas@educacion.navarra.es" Foto="Images/Almudena.png" Grid.Row="3" Grid.Column="4" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Aitor" Apellidos="Zubillaga Soria" Email="azubillsor@educacion.navarra.es" Foto="Images/Aitor.png" Grid.Row="3" Grid.Column="5" Grid.RowSpan="1"/>
+
+        <!-- Fila 1 -->
+        <local:Puesto Nombre="Rubén" Apellidos="López-Davalillo Ledesma" Email="rlopezdled@educacion.navarra.es" Foto="Images/RubenL.png" Grid.Row="4" Grid.Column="1" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Beñat" Apellidos="Martínez Moreno" Email="bmartinmor3@educacion.navarra.es" Foto="Images/Beñat.png" Grid.Row="4" Grid.Column="2" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Aimar" Apellidos="Urquizu Diego" Email="aurquizdie1@educacion.navarra.es" Foto="Images/Aimar.png" Grid.Row="4" Grid.Column="4" Grid.RowSpan="1"/>
+        <local:Puesto Nombre="Midgard" Apellidos="Almeida Minda" Email="malmeidmin@educacion.navarra.es" Foto="Images/Midgard.png" Grid.Row="4" Grid.Column="5" Grid.RowSpan="1"/>
+        
+        <!-- Profesor-->
+        <local:Puesto Nombre="David" Apellidos="Gurucharri Azcona" Email="dguruchazc@educacion.navarra.es" Foto="Images/DavidG.jpeg" Grid.Row="4" Grid.Column="5" Grid.RowSpan="1"/>
+        
+    </Grid>
+</Window>
